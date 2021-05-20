@@ -10,11 +10,34 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
+    
+    @IBOutlet weak var LabelHeight: NSLayoutConstraint!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
+        
     }
+    
+  
 
 
+    @IBAction func ChangeButton(_ sender: Any) {
+
+        if LabelHeight.constant == 21{
+            LabelHeight.constant = LabelHeight.constant * 5
+        }
+        else{
+            LabelHeight.constant = LabelHeight.constant / 5
+
+        }
+        view.layoutIfNeeded()
+//        print(LabelHeight.constant)
+
+    }
 }
 

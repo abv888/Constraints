@@ -13,6 +13,7 @@
 		B7C6F92F24D01EAC0085294B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C6F92D24D01EAC0085294B /* Main.storyboard */; };
 		B7C6F93124D01EAE0085294B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C6F93024D01EAE0085294B /* Assets.xcassets */; };
 		B7C6F93424D01EAE0085294B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C6F93224D01EAE0085294B /* LaunchScreen.storyboard */; };
+		B7EDE73624D82CC500AC1298 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDE73524D82CC500AC1298 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B7C6F93024D01EAE0085294B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7C6F93324D01EAE0085294B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7C6F93524D01EAE0085294B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7EDE73524D82CC500AC1298 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B7C6F92924D01EAC0085294B /* SceneDelegate.swift */,
 				B7C6F92B24D01EAC0085294B /* ViewController.swift */,
 				B7C6F92D24D01EAC0085294B /* Main.storyboard */,
+				B7EDE73524D82CC500AC1298 /* SecondViewController.swift */,
 				B7C6F93024D01EAE0085294B /* Assets.xcassets */,
 				B7C6F93224D01EAE0085294B /* LaunchScreen.storyboard */,
 				B7C6F93524D01EAE0085294B /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7EDE73624D82CC500AC1298 /* SecondViewController.swift in Sources */,
 				B7C6F92C24D01EAC0085294B /* ViewController.swift in Sources */,
 				B7C6F92824D01EAC0085294B /* AppDelegate.swift in Sources */,
 				B7C6F92A24D01EAC0085294B /* SceneDelegate.swift in Sources */,
